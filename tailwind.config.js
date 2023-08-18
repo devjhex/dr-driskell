@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "index.html",
-    "about.html"
+    "about.html",
+    "error.html",
   ],
   theme: {
     screens:{
