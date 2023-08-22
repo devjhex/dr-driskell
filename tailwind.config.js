@@ -4,6 +4,7 @@ module.exports = {
     "index.html",
     "about.html",
     "error.html",
+    "promo.html",
   ],
   theme: {
     screens:{
