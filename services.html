@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" class="font-jost">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="output.css">
+    <title>Services</title>
+</head>
+<body>
+    <header class="lg:flex lg:h-[10rem] lg:flex-col bg-black">
+
+        <!-- whole header section for the desktop screen -->
+        <div class="bg-black flex md:items-center lg:items-center h-[5rem] w-screen md:w-11/12 lg:w-[76rem] md:h-[5rem] lg:h-[4rem] md:mx-auto lg:my-[.7rem] justify-between relative z-20">
+
+
+             <!-- Contact info component on Large screen -->
+        <div class="hidden lg:block w-[23rem] h-[2.9rem] lg:mt-[2rem]">
+          <div class="flex justify-between">
+            <div>
+                <div class="text-white">
+                    <span class="flex items-center"><img class="" src="./images/phone.svg" alt="phone"> +7 952 552-52-52</span>
+                </div>
+                <div class="text-white text-[.75rem] inline-flex items-start gap-[.6rem]">
+                  <span>Viber</span>
+                  <span class="text-[#BB8C5F]">Whats App</span>
+                  <span>Telegram</span>
+                </div>
+            </div>
+    
+               <div class="flex items-start justify-start">
+                <img class="mr-2" src="./images/mail.svg" alt="email">
+                <p class="text-white">Mr.Driskell@mail.ru</p>
+            </div>
+          </div>
+        </div>
+        <!-- end Contact info component on large screen -->
+
+        <!-- Dr driskell title component for large screen -->
+        <div class="hidden lg:block">
+            <h1 class="uppercase text-[1.9rem] font-[400] text-[#BB8C5F] text-center font-forum pt-[3.5rem]  lg:pt-0">mr. driskell</h1>
+        <div class=" w-max mx-auto -mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="192" height="6" viewBox="0 0 192 6" fill="none">
+                <path d="M0.113249 3.00002L3 5.88677L5.88675 3.00002L3 0.113264L0.113249 3.00002ZM191.887 3L189 0.113248L186.113 3L189 5.88675L191.887 3ZM3 3.50002L189 3.5L189 2.5L3 2.50002L3 3.50002Z" fill="#BB8C5F"/>
+              </svg>
+        </div>
+        <h1 class="text-[#BB8C5F] uppercase  text-[.9rem] font-[300] leading-[.3rem] mt-[1rem] text-center ">Tattoo shop</h1>
+        
+        </div>
+        <!-- End of Dr driskell title component on large screen -->
+
+        <!-- Menu component -->
+        <div class=" lg:hidden w-[6.5rem] h-[2.1rem]  flex items-center mt-[1.38rem] ml-[1.25rem] mb-[1.44rem] mr-[3rem] shrink-0 cursor-pointer">
+
+            <!-- Logo -->
+           <h1 class="text-[1.5rem] text-white font-[400] mr-[0.62rem]">Меню</h1> 
+           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <path d="M2 13H26V15H2V13Z" fill="#BB8C5F"/>
+            <path d="M2 7H26V9H2V7Z" fill="#BB8C5F"/>
+            <path d="M2 19H26V21H2V19Z" fill="#BB8C5F"/>
+          </svg>
+          <!-- dropdown list -->
+          <div class="absolute w-full h-auto bg-black top-full left-0 pb-8 hidden">
+            <div class="mb-[2rem] -translate-y-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="320" height="6" viewBox="0 0 320 6" fill="none">
+                    <path d="M5 2.5L2.52368e-07 0.113249L-2.52368e-07 5.88675L5 3.5L5 2.5ZM315 3.50003L320 5.88678L320 0.113277L315 2.50003L315 3.50003ZM4.5 3.5L315.5 3.50003L315.5 2.50003L4.5 2.5L4.5 3.5Z" fill="#524336"/>
+                  </svg>
+            </div>
+            
+            <ul class="w-full text-white pl-[1.25rem]">
+                <select class="bg-black text-white">
+                    <option value="Контакты">Контакты</option>
+                </select>
+                <li>Контакты</li>
+                <li>Промокоды</li>
+                <li>Скидки</li>
+                <li>Помощь</li>
+                <li>О нас</li>
+                <li>Избранное</li>
+                <li>Личный кабинет</li>
+            </ul>
+
+            <!-- SEARCH INPUT BAR -->
+            <div class="w-[17.5rem] h-[2.75rem] shrink-0 font-[400] text-[.9rem] bg-black border-[1px] border-[#524336] flex items-center mt-[2rem] ml-[1.25rem] p-2">
+
+                <img class="w-[1.75rem] h-[1.75rem] mr-1" src="./images/search.svg" alt="search">
+                <input type="text" placeholder="Поиск" class=" bg-black w-full h-full text-white pl-2">
+            </div>
+            <!-- END SEARCH INPUT BAR -->
+
+            <div class="mt-[3.75rem]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="320" height="6" viewBox="0 0 320 6" fill="none">
+                    <path d="M5 2.5L2.52368e-07 0.113249L-2.52368e-07 5.88675L5 3.5L5 2.5ZM315 3.50003L320 5.88678L320 0.113277L315 2.50003L315 3.50003ZM4.5 3.5L315.5 3.50003L315.5 2.50003L4.5 2.5L4.5 3.5Z" fill="#524336"/>
+                  </svg>
+            </div>
+    
+            <section class=" mt-[4rem] relative z-20">
+
+
+                <p class="font-jost text-[1.25rem] font-[400] text-white flex">
+                    <img class="mr-2" src="./images/phone.svg" alt="tel">
+                    8 800 600-61-91
+                </p>
+                <div class="flex w-[150px] justify-around mt-[2rem]">
+
+    
+                    <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                        <img class="w-[2.5rem]" src="./images/Telegram.svg" alt="Telegram">
+                    </div>
+                    <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                        <img class="w-[2.5rem]" src="./images/viber.svg" alt="Telegram">
+                    </div>
+                    <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                        <img class="w-[2.5rem]" src="./images/whatsapp.svg" alt="Telegram">
+                    </div>
+                </div>
+                <p class="text-[#636B78] font-jost text-[1.1rem] font-[400] mt-[1.25rem]">Время работы: с 9:00 до 20:00 по мск</p>
+                <div class="flex items-center justify-start mt-[1.87rem]">
+
+                    <img class="mr-2" src="./images/mail.svg" alt="email">
+                    <p class="text-white">Mr.Driskell@mail.ru</p>
+                </div>
+            </section>
+          </div>
+          <!-- End of dropdown list -->
+        </div>
+        <!-- End of menu component -->
+
+        <!-- Input component for large screen header -->
+        <div class="hidden md:block lg:hidden md:w-[17rem] md:h-[2.75rem] shrink-0 bg-black md:border-[1px] md:border-[#524336]">
+           <div class="flex items-center w-full h-full pl-4">
+            <img class="w-[1.75rem] h-[1.75rem] mr-[.63rem]" src="/images/search.svg" alt="search">
+            <input type="text" placeholder="Поиск" class=" md:w-full md:h-full md:outline-none  md:bg-black text-[.9rem] md:text-white">
+           </div>
+        </div>
+        <!-- End of input component for large screen header -->
+
+        <div class="w-[6.6rem] md:w-[15rem]  h-[2.3rem] flex md:justify-between mt-[1.19rem] ml-[1.25rem] mb-[1.5rem] shrink-0">
+            
+            <div class="relative flex w-[5.8rem] h-[1.75rem] items-center justify-center shrink-0  mt-[.7rem] ">
+                <h1 class="text-white text-[0.94rem] font-[400]">37 280 ₽ </h1>
+                <img class="" src="./images/basket.svg" alt="basket">
+                <div class="bg-[#BB8C5F] text-white  px-[.5rem] flex items-center justify-center w-[1.5rem] h-[1.3rem] absolute bottom-[1rem] left-[4.8rem]">17</div>
+            </div>
+           
+            <div class="md:w-[2rem] md:h-[2rem] mt-[.7rem] hidden md:block">
+                <img class="w-[2rem]" src="./images/heartIcon.svg" alt="liked">
+            </div>
+
+            <div class="hidden md:block mt-[.7rem]">
+                <img src="./images/profileIcon.svg" alt="profile">
+            </div>
+        </div>
+        </div>
+        <!-- End of whole header section for the desktop screen -->
+
+
+       <div class="hidden lg:block w-max mx-auto">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1216" height="6" viewBox="0 0 1216 6" fill="none">
+            <path d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM1211 3.5L1216 5.88675V0.113249L1211 2.5V3.5ZM4.5 3.5H1211.5V2.5H4.5V3.5Z" fill="#524336"/>
+          </svg>
+       </div>
+
+       <div class="hidden lg:block">
+        <div class="flex w-[76rem] mx-auto justify-between items-center">
+         <!-- Menu component -->
+         <div class=" w-[6.5rem] h-[2.1rem]  flex items-center mt-[1.38rem] ml-[1.25rem] mb-[1.44rem] mr-[3rem] shrink-0 cursor-pointer">
+
+            <!-- Logo -->
+           <h1 class="text-[1.5rem] text-white font-[400] mr-[0.62rem]">Каталог</h1> 
+           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <path d="M2 13H26V15H2V13Z" fill="#BB8C5F"/>
+            <path d="M2 7H26V9H2V7Z" fill="#BB8C5F"/>
+            <path d="M2 19H26V21H2V19Z" fill="#BB8C5F"/>
+          </svg>
+          <!-- dropdown list -->
+          <div class="absolute w-full h-auto bg-black top-full left-0 pb-8 hidden">
+            <div class="mb-[2rem] -translate-y-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="320" height="6" viewBox="0 0 320 6" fill="none">
+                    <path d="M5 2.5L2.52368e-07 0.113249L-2.52368e-07 5.88675L5 3.5L5 2.5ZM315 3.50003L320 5.88678L320 0.113277L315 2.50003L315 3.50003ZM4.5 3.5L315.5 3.50003L315.5 2.50003L4.5 2.5L4.5 3.5Z" fill="#524336"/>
+                  </svg>
+            </div>
+            
+            <ul class="w-full text-white pl-[1.25rem]">
+                <select class="bg-black text-white">
+                    <option value="Контакты">Контакты</option>
+                </select>
+                <li>Контакты</li>
+                <li>Промокоды</li>
+                <li>Скидки</li>
+                <li>Помощь</li>
+                <li>О нас</li>
+                <li>Избранное</li>
+                <li>Личный кабинет</li>
+            </ul>
+
+            <!-- SEARCH INPUT BAR -->
+            <div class="w-[17.5rem] h-[2.75rem] shrink-0 font-[400] text-[.9rem] bg-black border-[1px] border-[#524336] flex items-center mt-[2rem] ml-[1.25rem] p-2">
+
+                <img class="w-[1.75rem] h-[1.75rem] mr-1" src="./images/search.svg" alt="search">
+                <input type="text" placeholder="Поиск" class=" bg-black w-full h-full text-white pl-2">
+            </div>
+            <!-- END SEARCH INPUT BAR -->
+
+            <div class="mt-[3.75rem]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="320" height="6" viewBox="0 0 320 6" fill="none">
+                    <path d="M5 2.5L2.52368e-07 0.113249L-2.52368e-07 5.88675L5 3.5L5 2.5ZM315 3.50003L320 5.88678L320 0.113277L315 2.50003L315 3.50003ZM4.5 3.5L315.5 3.50003L315.5 2.50003L4.5 2.5L4.5 3.5Z" fill="#524336"/>
+                  </svg>
+            </div>
+    
+            <section class=" mt-[4rem] relative z-20">
+
+
+                <p class="font-jost text-[1.25rem] font-[400] text-white flex">
+                    <img class="mr-2" src="./images/phone.svg" alt="tel">
+                    8 800 600-61-91
+                </p>
+                <div class="flex w-[150px] justify-around mt-[2rem]">
+
+    
+                    <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                        <img class="w-[2.5rem]" src="./images/Telegram.svg" alt="Telegram">
+                    </div>
+                    <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                        <img class="w-[2.5rem]" src="./images/viber.svg" alt="Telegram">
+                    </div>
+                    <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                        <img class="w-[2.5rem]" src="./images/whatsapp.svg" alt="Telegram">
+                    </div>
+                </div>
+                <p class="text-[#636B78] font-jost text-[1.1rem] font-[400] mt-[1.25rem]">Время работы: с 9:00 до 20:00 по мск</p>
+                <div class="flex items-center justify-start mt-[1.87rem]">
+
+                    <img class="mr-2" src="./images/mail.svg" alt="email">
+                    <p class="text-white">Mr.Driskell@mail.ru</p>
+                </div>
+            </section>
+          </div>
+          <!-- End of dropdown list -->
+        </div>
+        <!-- End of menu component -->
+
+        <!-- Input component for large screen header -->
+        <div class="w-[26rem] h-[2.75rem] shrink-0 bg-black md:border-[1px] md:border-[#524336]">
+            <div class="flex items-center w-full h-full pl-4">
+             <img class="w-[1.75rem] h-[1.75rem] mr-[.63rem]" src="/images/search.svg" alt="search">
+             <input type="text" placeholder="Поиск" class=" md:w-full md:h-full md:outline-none  md:bg-black text-[.9rem] md:text-white">
+            </div>
+         </div>
+         <!-- End of input component for large screen header -->
+
+         <!-- list of the large screen -->
+         <div class="w-[35rem] h-[2.9rem] bg-slate-600 flex">
+            <ul class="flex w-full text-[1rem] text-white items-center justify-between bg-black">
+                <li>Промокоды</li>
+                <li>Скидки</li>
+                <li>Помощь</li>
+                <li>О нас</li>
+                <li>Контакты</li>
+            </ul>
+         </div>
+         <!-- End of the list of the large screen -->
+ 
+        </div>
+       </div>
+    </header>
+<main>
+    <section class="mt-[1.25rem] max-w-[76rem] mx-auto">
+
+        <span class="mt-[1rem] lg:text-[1rem] ml-[1.25rem] lg:ml-0"><span class="text-[#636B78]">Главная/Каталог /</span> 
+        <span class="md:hidden">Kuro Sumi</span>
+        <span class="hidden md:inline-block">Доп. услуги</span>
+    </span>
+        <h1 class="font-forum mt-[1.25rem] text-[1.56rem] md:text-[3.1rem] font-[400] text-[#3E424B] ml-[1.25rem] md:ml-[1.8rem] lg:ml-0 md:hidden">Корзина</h1>
+        <h1 class="font-forum mt-[1.25rem] text-[1.56rem] md:text-[3.1rem] font-[400] text-[#3E424B] ml-[1.25rem] md:ml-[1.8rem] lg:ml-0 hidden md:block">Доп. услуги</h1>
+      <div class="md:flex flex-wrap items-center  md:pl-[1.8rem] md:gap-[1rem] lg:relative">
+             <!-- ! Service 1 -->
+             <article class="mb-4 md:w-[22rem] h-[33rem] cursor-pointer lg:w-[24.5rem] lg:h-[42.5rem]  shrink-0">
+                <div class=" s:w-max s:mx-auto">
+    
+                    <img src="/service-images/service1.png" alt="delivery">
+                </div>
+                <div class="p-4 w-full">
+                    
+                    
+
+
+                    <!-- **Heading of the promo -->
+                    <h1 class="text-[1.25rem]  font-[700] text-[#3E424B] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Срочная отправка</h1>
+    
+                    <!-- **Paragraphs of the promo -->
+                    <p class=" h-[4.2rem] lg:hidden">Ваши покупки будут упакованы и отправлены в день оформления заказа. Как только заказ будет …
+                        
+                    </p>
+                    <p class="hidden mx-auto w-[19.5rem] lg:block">
+                        Ваши покупки будут упакованы и отправлены в день оформления заказа. Как только заказ будет подтверждён звонком менеджера, наш сотрудник незамедлительно упакует и отправит ваш заказ. Воспользуйтесь данной услугой — это сэкономит вам 1 день ожидания. Данная Услуга особенно актуальна если заказ делается ближе к выходным дням.
+                    </p>
+                        <span class="block mt-4  font-[400] text-[#BB8C5F] text-[1rem] leading-[1.4rem] lg:w-[19rem] lg:mx-auto">Читать далее…</span>
+                    <p class="mt-[1.25rem] text-[1.06rem] font-[400] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Стоимость услуги: 250₽</p>
+                </div>
+    
+                 <!--! ** Catalogue component -->
+                 <div class="relative text-center w-max mx-auto h-max cursor-pointer">
+    
+    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="314" height="70" viewBox="0 0 314 70" fill="none">
+                        <path d="M16 17.5V1H298V17.5V26.25V26.8244L298.496 27.1138L312.015 35L298.496 42.8862L298 43.1756V43.75V52.5V69H16V52.5V43.75V43.1756L15.5039 42.8862L1.98463 35L15.5039 27.1138L16 26.8244V26.25V17.5Z" fill="#EEEEEE" stroke="#BB8C5F" stroke-width="2"/>
+                      </svg>
+                      <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[1.25rem] -ml-1 text-[#BB8C5F]">Добавить к заказу
+                      </span>
+                </div>
+            </article>
+            <!-- !End of Service 1 -->
+    
+    
+             <!-- ! Service 2 -->
+             <article class="mb-4 md:w-[22rem] h-[33rem] cursor-pointer lg:w-[24.5rem] lg:h-[42.5rem] shrink-0 ">
+                <div class="s:w-max s:mx-auto">
+    
+                    <img src="/service-images/service2.png"  alt="authentic">
+                </div>
+                <div class="p-4 w-full">   
+                    
+                    
+                    <!-- **Heading of the promo -->
+                    <h1 class="text-[1.25rem]  font-[700] text-[#3E424B] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Почтовая гарантия</h1>
+    
+                    <!-- **Paragraphs of the promo -->
+                    <p class="lg:hidden w-[20rem] h-max">Дополнительная защита вашего отправления от случайного повреждения и порчи во время доставки.…  
+                    </p>
+                    <p class="hidden lg:block lg:w-[19.5rem] lg:mx-auto">
+                        Дополнительная защита вашего отправления от случайного повреждения и порчи во время доставки. Если с вашими покупками что-то случилось во время доставки — что-то было повреждено, разбито или разлито — мы полностью компенсируем вам убытки. Почтовая гарантия — это ваша абсолютная уверенность, что заказ будет доставлен в целости и сохранности.
+                    </p>
+                    <span class="block mt-[1rem] font-[400] text-[#BB8C5F] text-[1rem] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Читать далее…</span>
+                    <p class="mt-[1.25rem] text-[1.06rem] font-[400] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Стоимость услуги: 250₽</p>
+                </div>
+    
+                 <!--! ** Catalogue component -->
+                 <div class="relative text-center w-max mx-auto h-max cursor-pointer">
+    
+    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="314" height="70" viewBox="0 0 314 70" fill="none">
+                        <path d="M16 17.5V1H298V17.5V26.25V26.8244L298.496 27.1138L312.015 35L298.496 42.8862L298 43.1756V43.75V52.5V69H16V52.5V43.75V43.1756L15.5039 42.8862L1.98463 35L15.5039 27.1138L16 26.8244V26.25V17.5Z" fill="#EEEEEE" stroke="#BB8C5F" stroke-width="2"/>
+                      </svg>
+                      <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[1.25rem] -ml-1 text-[#BB8C5F]">Добавить к заказу
+                      </span>
+                </div>
+            </article>
+            <!-- !End of Service 2 -->
+    
+            <!-- ! Service 3 -->
+             <article class="mb-4 md:w-[22rem] h-[33rem] cursor-pointer lg:w-[24.5rem] lg:h-[42.5rem] shrink-0">
+                <div class="s:w-max s:mx-auto">
+    
+                    <img src="/service-images/service3.png"  alt="fast">
+                </div>
+                <div class="p-4">      
+                    <!-- **Heading of the promo -->
+                    <h1 class="text-[1.25rem]  font-[700] text-[#3E424B] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Расширенная гарантия</h1>
+    
+                    <!-- **Paragraphs of the promo -->
+                    <p class="lg:hidden">Лучшее решение для подарка. Мы красиво упакуем ваш заказ, отправка будет осуществена курьерской… …
+                        
+                    </p>
+                    <p class="hidden lg:block w-[19.5rem] mx-auto">Защитите свои покупки от потери и повреждения! При выборе расширенной почтовой гарантии, мы возмещаем вам полную стоимость приобретённого товара в случае полной утери посылки или повреждения товара в ходе транспортировки посылки почтой России или транспортной компанией. Кроме того, вы получаете нашу 2-х летнюю гарантию на весь товар из вашего заказа</p>
+
+                    
+                        <span class="block mt-4 font-[400] text-[#BB8C5F] text-[1rem] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Читать далее…</span>
+                    <p class="mt-[1.25rem] text-[1.06rem] font-[400] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Стоимость услуги: 10% от суммы заказа</p>
+                </div>
+    
+                 <!--! ** Catalogue component -->
+                 <div class="relative text-center w-max mx-auto h-max cursor-pointer">
+    
+    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="314" height="70" viewBox="0 0 314 70" fill="none">
+                        <path d="M16 17.5V1H298V17.5V26.25V26.8244L298.496 27.1138L312.015 35L298.496 42.8862L298 43.1756V43.75V52.5V69H16V52.5V43.75V43.1756L15.5039 42.8862L1.98463 35L15.5039 27.1138L16 26.8244V26.25V17.5Z" fill="#EEEEEE" stroke="#BB8C5F" stroke-width="2"/>
+                      </svg>
+                      <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[1.25rem] -ml-1 text-[#BB8C5F]">Добавить к заказу
+                      </span>
+                </div>
+            </article>
+            <!-- !End of Service 3 -->
+    
+            <!-- !Service 4 -->
+             <article class="mb-4 md:w-[22rem] h-[33rem] cursor-pointer lg:w-[24.5rem] lg:h-[42.5rem] shrink-0">
+                    <div class="s:w-max s:mx-auto">
+    
+                        <img src="/service-images/service4.png" alt="delivery">
+                    </div>
+                    <div class="p-4">      
+                        <!-- **Heading of the promo -->
+                        <h1 class="text-[1.25rem]  font-[700] text-[#3E424B] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Срочная отправка</h1>
+    
+                        <!-- **Paragraphs of the promo -->
+                        <p class="lg:hidden">Лучшее решение для подарка. Мы красиво упакуем ваш заказ, отправка будет осуществена курьерской…… 
+                        </p>
+                        <p class="hidden lg:block w-[19.5rem] mx-auto">Лучшее решение для подарка. Мы красиво упакуем ваш заказ, отправка будет осуществена курьерской компанией вам или иному адресату, на ваше усмотрение. Детали отправки согласовываются при звонке менеджера для подтверждения заказа.</p>
+                        
+                            <span class="block mt-4 font-[400] text-[#BB8C5F] text-[1rem] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Читать далее…</span>
+                        <p class="mt-[1.25rem] text-[1.06rem] font-[400] lg:mt-[5.5rem] leading-[1.4rem] lg:w-[19.5rem] lg:mx-auto">Стоимость услуги: 500₽</p>
+                    </div>
+    
+                    <!--! ** Catalogue component -->
+                    <div class="relative text-center w-max mx-auto h-max cursor-pointer">
+    
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="314" height="70" viewBox="0 0 314 70" fill="none">
+                            <path d="M16 17.5V1H298V17.5V26.25V26.8244L298.496 27.1138L312.015 35L298.496 42.8862L298 43.1756V43.75V52.5V69H16V52.5V43.75V43.1756L15.5039 42.8862L1.98463 35L15.5039 27.1138L16 26.8244V26.25V17.5Z" fill="#EEEEEE" stroke="#BB8C5F" stroke-width="2"/>
+                        </svg>
+                        <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[1.25rem] -ml-1 text-[#BB8C5F]">Добавить к заказу
+                        </span>
+                    </div>
+             </article>
+    
+            <!-- !End of service 4 -->
+
+            <!-- ! Section that contains the totals of the items chosen or purchased -->
+            <section class="md:w-[25.5rem] lg:w-[24.5rem] md:h-[65rem] lg:order-[1] lg:absolute lg:right-0 lg:top-0">
+                <article class="p-4  w-[18rem] mx-auto">
+                    <h1 class="text-[#3E424B] text-[1.25rem] font-[600] leading-[1.8rem] mb-[1rem]">Оплата</h1>
+                    <div class="flex items-center relative mb-[1rem]">
+        
+        
+                        <input type="radio" name="radio" id="r1" class="peer opacity-0 mr-3">
+                    <label for="r1" class=" cursor-pointer  before:content-[''] before:absolute before:w-[.7rem] before:h-[.7rem] before:rounded-full  before:top-1 before:bg-transparent before:outline-[#BB8C5F] before:outline before:outline-offset-[.2rem] before:left-0 before:peer-checked:bg-[#BB8C5F] before:duration-[.5s]">Онлайн на сайте </label>
+                    <span class="ml-2"><img src="./service-images/knowMore.png" alt="More"></span>
+                    </div>
+                   
+                    <div class="flex items-center relative mb-[1rem]">
+        
+                        <input type="radio" name="radio" id="r2" class="mr-3 opacity-0 peer">
+                        <label for="r2" class="cursor-pointer  before:content-[''] before:absolute before:w-[.7rem] before:h-[.7rem] before:rounded-full  before:top-1 before:bg-transparent before:outline-[#BB8C5F] before:outline before:outline-offset-[.2rem] before:left-0 before:peer-checked:bg-[#BB8C5F] before:duration-[.5s]">Наложенным платежом </label>
+                        <span class="ml-2"><img src="./service-images/knowMore.png" alt="More"></span>
+                    </div>
+        
+                   <div class="flex items-center relative mb-[1rem]">
+        
+        
+                    <input type="radio" name="radio" id="r3" class="mr-3 opacity-0 peer">
+                    <label for="r3" class=" cursor-pointer before:content-[''] before:absolute before:w-[.7rem] before:h-[.7rem] before:rounded-full  before:top-1 before:bg-transparent before:outline-[#BB8C5F] before:outline before:outline-offset-[.2rem] before:left-0 before:peer-checked:bg-[#BB8C5F] before:duration-[.5s]">Безналичный расчет</label>
+                    <span class="ml-2"><img src="./service-images/knowMore.png" alt="More"></span>
+                   </div>
+        
+                    <br>
+                    <h1 class="text-[#3E424B] text-[1.25rem] font-[600] leading-[1.8rem] mb-[1rem]">Доставка</h1>
+                    
+                    <div class="flex items-center relative mb-[1rem]">
+        
+                        <input type="radio" name="rad" id="rad1" class="opacity-0 mr-3 peer">
+                         <label for="rad1" class=" cursor-pointer before:content-[''] before:absolute before:w-[.7rem] before:h-[.7rem] before:rounded-full  before:top-1 before:bg-transparent before:outline-[#BB8C5F] before:outline before:outline-offset-[.2rem] before:left-0 before:duration-[.5s] before:peer-checked:bg-[#BB8C5F]">Курьерская служба</label>
+                         <span class="ml-2"><img src="./service-images/knowMore.png" alt="More"></span>
+                    </div>
+                    
+                    <div class="flex items-center relative">
+                            
+                        <input type="radio" name="rad" id="rad2" class="opacity-0 mr-3 peer">
+                        <label for="rad2" class="cursor-pointer  before:content-[''] before:absolute before:w-[.7rem] before:h-[.7rem] before:rounded-full  before:top-1 before:bg-transparent before:outline-[#BB8C5F] before:outline before:outline-offset-[.2rem] before:left-0 before:duration-[.5s] before:peer-checked:bg-[#BB8C5F]">Почта России</label>
+                        <span class="ml-2"><img src="./service-images/knowMore.png" alt="More"></span>
+                    </div>
+                </article>
+                <div class="mb-[2.5rem] s:w-max s:mx-auto">
+                    <!-- !Services article compnent separator -->
+                    <svg class="block s:hidden" xmlns="http://www.w3.org/2000/svg" width="320" height="6" viewBox="0 0 320 6" fill="none">
+                        <path d="M5 2.5L-2.52368e-07 0.113249L2.52368e-07 5.88675L5 3.5L5 2.5ZM315 3.49997L320 5.88672L320 0.113221L315 2.49997L315 3.49997ZM4.5 3.5L315.5 3.49997L315.5 2.49997L4.5 2.5L4.5 3.5Z" fill="#D0D0D0"/>
+                      </svg>
+                      <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="392" height="6" viewBox="0 0 392 6" fill="none">
+                        <path d="M5 2.5L2.52368e-07 0.113249L-2.52368e-07 5.88675L5 3.5L5 2.5ZM387 3.50003L392 5.88679L392 0.113283L387 2.50003L387 3.50003ZM4.5 3.5L387.5 3.50003L387.5 2.50003L4.5 2.5L4.5 3.5Z" fill="#D0D0D0"/>
+                      </svg>
+                </div>
+        
+                <article class="">
+                    <div class="w-[18rem] flex text-[#3E424B] items-center justify-between mx-auto mb-[0.9rem] ">
+        
+                        <span class="w-max text-[1.06rem] font-[400] leading-[1.5rem]">Всего единиц товара:</span>
+        
+                        <span class="w-[6rem] text-[1.06rem] font-[500] leading-[1.4rem] flex justify-end">17</span>
+                    </div>
+                    <div class="text-[#3E424B] w-[18rem] flex items-center justify-between mx-auto mb-[0.9rem]">
+        
+                        <span class="w-max text-[1.06rem] font-[400] leading-[1.5rem]">Общая скидка:</span>
+        
+                        <span class="w-[6rem] text-[1.06rem] font-[500] leading-[1.4rem] flex justify-end">1080₽</span>
+                    </div>
+                   
+                    <div class="w-[18rem] text-[#3E424B] flex items-center justify-between mx-auto mb-[0.9rem]">
+        
+                        <span class="w-max text-[1.06rem] font-[400] leading-[1.5rem]">Доп. услуги</span>
+        
+                        <span class="w-[6rem] text-[1.06rem] font-[500] leading-[1.4rem] flex justify-end">0₽</span>
+                    </div>
+                     <div class="w-[18rem] text-[#3E424B] flex items-center justify-between mx-auto mb-[0.9rem]">
+        
+                        <span class="w-max text-[1.6rem] font-[700] leading-[1.7rem]">Итого:</span>
+        
+                        <span class="w-auto text-[1.6rem] font-[700] leading-[1.8rem] flex justify-end">37 820₽</span>
+                    </div>
+                   
+                    <div class="text-[#3E424B] w-max h-max mx-auto flex flex-col mb-4">
+                        <label for="promo">Промокод</label>
+                        <div class="w-[17.5rem] h-[2.75rem] shrink-0 font-[400] text-[.9rem]  bg-white  flex flex-col ">
+                            
+                            <input id="promo" type="text" placeholder="Поиск" class="w-full h-full text-black pl-2 border-[1px] border-[#524336]">
+                        </div>
+                    </div>
+                    <p class="text-[1.3rem]  font-[400] text-[#BB8C5F] mx-auto  w-max">Активировать промокод
+                        <svg xmlns="http://www.w3.org/2000/svg" width="215" height="6" viewBox="0 0 215 6" fill="none">
+                            <path d="M0.113249 3L3 5.88675L5.88675 3L3 0.113249L0.113249 3ZM214.887 2.99998L212 0.11323L209.113 2.99998L212 5.88673L214.887 2.99998ZM3 3.5L212 3.49998L212 2.49998L3 2.5L3 3.5Z" fill="#BB8C5F"/>
+                          </svg>
+                    </p>
+        
+                    <div class="my-[2.5rem]  s:w-max s:mx-auto">
+                         <!-- !Services article compnent separator -->
+                    <svg class="s:hidden" xmlns="http://www.w3.org/2000/svg" width="320" height="6" viewBox="0 0 320 6" fill="none">
+                        <path d="M5 2.5L-2.52368e-07 0.113249L2.52368e-07 5.88675L5 3.5L5 2.5ZM315 3.49997L320 5.88672L320 0.113221L315 2.49997L315 3.49997ZM4.5 3.5L315.5 3.49997L315.5 2.49997L4.5 2.5L4.5 3.5Z" fill="#D0D0D0"/>
+                      </svg>
+                      <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="392" height="6" viewBox="0 0 392 6" fill="none">
+                        <path d="M5 2.5L2.52368e-07 0.113249L-2.52368e-07 5.88675L5 3.5L5 2.5ZM387 3.50003L392 5.88679L392 0.113283L387 2.50003L387 3.50003ZM4.5 3.5L387.5 3.50003L387.5 2.50003L4.5 2.5L4.5 3.5Z" fill="#D0D0D0"/>
+                      </svg>
+                    </div>
+                    <div>
+                         <!--! ** Catalogue component -->
+                         <div class="relative text-center w-max mx-auto h-max cursor-pointer mb-2">
+            
+            
+                            <svg xmlns="http://www.w3.org/2000/svg" width="314" height="70" viewBox="0 0 300 70" fill="none">
+                                <path d="M16 17.5V1H284V17.5V26.25V26.8244L284.496 27.1138L298.015 35L284.496 42.8862L284 43.1756V43.75V52.5V69H16V52.5V43.75V43.1756L15.5039 42.8862L1.98463 35L15.5039 27.1138L16 26.8244V26.25V17.5Z" fill="#524336" stroke="#BB8C5F" stroke-width="2"/>
+                              </svg>
+                            <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[1.25rem] -ml-1 text-[#BB8C5F]">Оформить заказ
+                            </span>
+                        </div>
+                         <!--! ** Catalogue component -->
+                         <div class="relative text-center w-max mx-auto h-max cursor-pointer">
+            
+            
+                            <svg xmlns="http://www.w3.org/2000/svg" width="300" height="70" viewBox="0 0 300 70" fill="none">
+                                <path d="M16 17.5V1H284V17.5V26.25V26.8244L284.496 27.1138L298.015 35L284.496 42.8862L284 43.1756V43.75V52.5V69H16V52.5V43.75V43.1756L15.5039 42.8862L1.98463 35L15.5039 27.1138L16 26.8244V26.25V17.5Z" fill="#EEEEEE" stroke="#BB8C5F" stroke-width="2"/>
+                              </svg>
+                            <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[1.25rem] -ml-1 text-[#BB8C5F]">Купить в 1 клик
+                            </span>
+                        </div>
+                    </div>
+        
+                    <div class="mb-[10rem]">
+                        <div class="ml-3 mt-[1.25rem] md:mt-[1.6rem] md:max-w-[24rem]">
+                            <input type="checkbox" name="checkbox" id="check">
+                            <label for="check">Согласен с <span class="underline text-[#BB8C5F]">публичной офертой и обработкой персональных данных</span></label>
+                        </div>
+                    </div>
+                </article>
+            </section>
+      </div>
+
+     
+    </section>
+
+  
+</main>
+
+    <footer class="bg-black  w-full h-[43.8rem] md:h-[35rem] lg:h-[25rem] shrink-0 pb-4">
+        <section class="lg:flex lg:items-center max-w-[76rem] lg:mx-auto ">
+    
+            <!-- ! Upper section of the footer on the tablet version -->
+         <div class=" md:h-max md:flex md:items-center md:w-11/12 md:max-w-[48rem] md:mx-auto lg:mx-0">
+            <div>
+                <h1 class="uppercase text-[2.6rem] font-[400] text-[#BB8C5F] text-center font-forum pt-[3.5rem] lg:pt-0">mr. driskell</h1>
+            <div class=" w-max mx-auto -mt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="276" height="9" viewBox="0 0 276 9" fill="none">
+                <path d="M0.871635 4.29883L5 8.42719L9.12836 4.29883L5 0.170464L0.871635 4.29883ZM275.128 4.2988L271 0.170441L266.872 4.29881L271 8.42717L275.128 4.2988ZM5 5.01388L271 5.01386L271 3.58375L5 3.58377L5 5.01388Z" fill="#BB8C5F"/>
+              </svg>
+            </div>
+            <h1 class="text-[#BB8C5F] uppercase  text-[1.2rem] font-[300] leading-[.3rem] mt-[1rem] text-center ">Tattoo shop</h1>
+            <p class="hidden mt-[1.51rem] md:block text-white">
+                Политика конфенедциальности
+            </p>
+            </div>
+            <ul class="text-white w-[16rem] s:w-full  md:max-w-[19rem] s:mx-auto h-[8rem] shrink-0 mt-[2.5rem] flex flex-wrap justify-around ml-3 ">
+                <div class="flex-col">
+                    <li class="my-3">Промокоды</li>
+                <li class="mb-3"> Скидки</li>
+                <li class="">Помощь</li>
+                </div>
+               <div>
+                <li class="my-3">О нас</li>
+                <li>Контакты</li>
+               </div>
+            </ul>
+         </div>
+            
+        <!-- ! Upper section of the footer on the tablet version -->
+    
+            <div class="mt-[3.75rem] w-max s:mx-auto md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" width="320" height="6" viewBox="0 0 320 6" fill="none">
+                    <path d="M5 2.5L2.52368e-07 0.113249L-2.52368e-07 5.88675L5 3.5L5 2.5ZM315 3.50003L320 5.88678L320 0.113277L315 2.50003L315 3.50003ZM4.5 3.5L315.5 3.50003L315.5 2.50003L4.5 2.5L4.5 3.5Z" fill="#524336"/>
+                  </svg>
+            </div>
+            <div class="hidden md:block lg:hidden w-max mx-auto mt-[4.4rem]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="768" height="6" viewBox="0 0 768 6" fill="none">
+                    <path d="M5 2.5L2.52368e-07 0.113249L-2.52368e-07 5.88675L5 3.5L5 2.5ZM763 3.50007L768 5.88682L768 0.113316L763 2.50007L763 3.50007ZM4.5 3.5L763.5 3.50007L763.5 2.50007L4.5 2.5L4.5 3.5Z" fill="#524336"/>
+                  </svg>
+            </div>
+            <div class="hidden lg:block h-[25rem] ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="400" viewBox="0 0 6 400" fill="none">
+                    <path d="M2.50002 395L0.113266 400L5.88677 400L3.50002 395L2.50002 395ZM3.49998 5L5.88673 -1.26184e-07L0.113225 1.26184e-07L2.49998 5L3.49998 5ZM3.50002 395.5L3.49998 4.5L2.49998 4.5L2.50002 395.5L3.50002 395.5Z" fill="#524336"/>
+                  </svg>
+            </div>
+            <section class="w-[18.3rem] md:w-11/12 md:max-w-[48rem] lg:w-max h-[8.5rem] shrink-0 mt-[4rem] lg:mt-0 mx-auto lg:mx-0 lg:ml-[4rem]">
+                <div class="md:flex md:items-center md:h-1/2 md:py-8">
+                    <p class=" font-jost md:h-[1.8rem] md:w-max text-[1.25rem] font-[400] text-white flex md:mr-[1.25rem]">
+                        <img class="mr-2" src="./images/phone.svg" alt="tel">
+                        8 800 600-61-91
+                    </p>
+                    <div class="flex w-[150px] justify-around mt-[2rem] md:mt-0 ">
+        
+                        <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                            <img class="w-[2.5rem]" src="./images/Telegram.svg" alt="Telegram">
+                        </div>
+                        <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                            <img class="w-[2.5rem]" src="./images/viber.svg" alt="Telegram">
+                        </div>
+                        <div class="flex w-[2.5rem] h-[2.5rem] pt-[.8rem] pr-[.6rem] pb-[.6rem] pl-[.5rem] justify-center items-center shrink-0 bg-[#050402] border-[1px] border-[#BB8C5F] cursor-pointer">
+                            <img class="w-[2.5rem]" src="./images/whatsapp.svg" alt="Telegram">
+                        </div>
+                    </div>
+                </div>
+               
+                <p class="text-[#636B78] s:w-max font-jost text-[1.1rem] font-[400] mt-[2.5rem] md:mt-0">Время работы: с 9:00 до 20:00 по мск</p>
+                <div class="flex items-center justify-start mt-[1.87rem]">
+                    <img class="mr-2" src="./images/mail.svg" alt="email">
+                    <p class="text-white">Mr.Driskell@mail.ru</p>
+                </div>
+            </section>
+        </section>
+        </footer>
+</body>
+</html>
