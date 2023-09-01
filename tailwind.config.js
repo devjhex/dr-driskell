@@ -5,6 +5,7 @@ module.exports = {
     "about.html",
     "error.html",
     "promo.html",
+    "services.html"
   ],
   theme: {
     screens:{
