@@ -1766,7 +1766,7 @@ video {
 @font-face {
   font-family:"jost";
 
-  src: url(./fonts/Jost-VariableFont_wght.ttf);
+  src: url(./fonts/Jost-VariableFont_wght.woff2) format('woff2');
 
   font-display: swap;
 }
@@ -1774,7 +1774,7 @@ video {
 @font-face {
   font-family:"forum";
 
-  src: url(./fonts/Forum-Regular.ttf);
+  src: url(./fonts/Forum-Regular.woff2) format('woff2');
 
   font-display: swap;
 }
