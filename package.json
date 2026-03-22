@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "critical": "^7.2.1",
     "opentype.js": "^1.3.4",
     "sharp": "^0.34.5",
     "svgo": "^4.0.1",
