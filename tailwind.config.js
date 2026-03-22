@@ -19,8 +19,8 @@ module.exports = {
     },
     extend: {
       fontFamily:{
-        jost:'jost',
-        forum:'forum'
+        jost: ['jost', 'jost-fallback', 'Arial', 'sans-serif'],
+        forum: ['forum', 'forum-fallback', 'Georgia', 'serif'],
       },
     },
   },

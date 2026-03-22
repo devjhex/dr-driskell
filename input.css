@@ -12,3 +12,21 @@
     src: url(./fonts/Forum-Regular.woff2) format('woff2');
     font-display: swap;
 }
+
+/* Metric-adjusted fallbacks to eliminate layout shift on font swap */
+@font-face {
+    font-family: "jost-fallback";
+    src: local("Arial");
+    size-adjust: 98.28%;
+    ascent-override: 107%;
+    descent-override: 37.5%;
+    line-gap-override: 0%;
+}
+@font-face {
+    font-family: "forum-fallback";
+    src: local("Georgia");
+    size-adjust: 93.76%;
+    ascent-override: 85.6%;
+    descent-override: 24.8%;
+    line-gap-override: 0%;
+}
