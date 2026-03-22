@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "./node_modules/.bin/tailwindcss -i input.css -o output.css --watch"
+    "tailwind": "npx tailwindcss -i input.css -o output.css --watch"
   },
   "keywords": [],
   "author": "",
