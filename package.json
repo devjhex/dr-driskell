@@ -4,12 +4,15 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i input.css -o output.css --watch"
+    "tailwind": "npx tailwindcss -i input.css -o output.css --watch",
+    "optimize": "node optimize.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "sharp": "^0.34.5",
+    "svgo": "^4.0.1",
     "tailwindcss": "^3.4.19"
   }
 }

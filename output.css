@@ -1675,92 +1675,92 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.\[background-image\:url\(\'\.\/desktopImages\/desktopSponsor10\.png\'\)\] {
-  background-image: url('./desktopImages/desktopSponsor10.png');
+.\[background-image\:url\(\'\.\/desktopImages\/desktopSponsor10\.webp\'\)\] {
+  background-image: url('./desktopImages/desktopSponsor10.webp');
 }
 
-.\[background-image\:url\(\'\.\/desktopImages\/desktopSponsor7\.png\'\)\] {
-  background-image: url('./desktopImages/desktopSponsor7.png');
+.\[background-image\:url\(\'\.\/desktopImages\/desktopSponsor7\.webp\'\)\] {
+  background-image: url('./desktopImages/desktopSponsor7.webp');
 }
 
-.\[background-image\:url\(\'\.\/desktopImages\/desktopSponsor8\.png\'\)\] {
-  background-image: url('./desktopImages/desktopSponsor8.png');
+.\[background-image\:url\(\'\.\/desktopImages\/desktopSponsor8\.webp\'\)\] {
+  background-image: url('./desktopImages/desktopSponsor8.webp');
 }
 
-.\[background-image\:url\(\'\.\/desktopImages\/desktopSponsor9\.png\'\)\] {
-  background-image: url('./desktopImages/desktopSponsor9.png');
+.\[background-image\:url\(\'\.\/desktopImages\/desktopSponsor9\.webp\'\)\] {
+  background-image: url('./desktopImages/desktopSponsor9.webp');
 }
 
-.\[background-image\:url\(\'\.\/desktopImages\/tattoed2\.png\'\)\] {
-  background-image: url('./desktopImages/tattoed2.png');
+.\[background-image\:url\(\'\.\/desktopImages\/tattoed2\.webp\'\)\] {
+  background-image: url('./desktopImages/tattoed2.webp');
 }
 
 .\[background-image\:url\(\'\.\/images\/box\.svg\'\)\] {
   background-image: url('./images/box.svg');
 }
 
-.\[background-image\:url\(\'\.\/images\/productCat\.png\'\)\] {
-  background-image: url('./images/productCat.png');
+.\[background-image\:url\(\'\.\/images\/productCat\.webp\'\)\] {
+  background-image: url('./images/productCat.webp');
 }
 
-.\[background-image\:url\(\'\/about-images\/error\.png\'\)\] {
-  background-image: url('/about-images/error.png');
+.\[background-image\:url\(\'\/about-images\/error\.webp\'\)\] {
+  background-image: url('/about-images/error.webp');
 }
 
-.\[background-image\:url\(\'\/images\/Bg1\.png\'\)\] {
-  background-image: url('/images/Bg1.png');
+.\[background-image\:url\(\'\/images\/Bg1\.webp\'\)\] {
+  background-image: url('/images/Bg1.webp');
 }
 
-.\[background\:_url\(\'\.\/images\/foxxViper\.png\'\)\2c _lightgray_-62\.191px_0px_\/_189\.495\%_100\%_no-repeat\] {
-  background:  url('./images/foxxViper.png'), lightgray -62.191px 0px / 189.495% 100% no-repeat;
+.\[background\:_url\(\'\.\/images\/foxxViper\.webp\'\)\2c _lightgray_-62\.191px_0px_\/_189\.495\%_100\%_no-repeat\] {
+  background:  url('./images/foxxViper.webp'), lightgray -62.191px 0px / 189.495% 100% no-repeat;
 }
 
-.\[background\:_url\(\'\.\/images\/productOne\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-  background:  url('./images/productOne.png'), lightgray 50% / cover no-repeat;
+.\[background\:_url\(\'\.\/images\/productOne\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+  background:  url('./images/productOne.webp'), lightgray 50% / cover no-repeat;
 }
 
-.\[background\:_url\(\'\.\/images\/productThree\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-  background:  url('./images/productThree.png'), lightgray 50% / cover no-repeat;
+.\[background\:_url\(\'\.\/images\/productThree\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+  background:  url('./images/productThree.webp'), lightgray 50% / cover no-repeat;
 }
 
-.\[background\:_url\(\'\.\/images\/productTwo\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-  background:  url('./images/productTwo.png'), lightgray 50% / cover no-repeat;
+.\[background\:_url\(\'\.\/images\/productTwo\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+  background:  url('./images/productTwo.webp'), lightgray 50% / cover no-repeat;
 }
 
-.\[background\:_url\(\'\.\/images\/review1\.png\'\)\2c _lightgray_0px_-1\.928px_\/_100\%_150\%_no-repeat\] {
-  background:  url('./images/review1.png'), lightgray 0px -1.928px / 100% 150% no-repeat;
+.\[background\:_url\(\'\.\/images\/review1\.webp\'\)\2c _lightgray_0px_-1\.928px_\/_100\%_150\%_no-repeat\] {
+  background:  url('./images/review1.webp'), lightgray 0px -1.928px / 100% 150% no-repeat;
 }
 
-.\[background\:radial-gradient\(57\.94\%_68\.69\%_at_29\.47\%_108\.19\%\2c _rgba\(0\2c _0\2c _0\2c _0\.85\)_38\.89\%\2c _rgba\(0\2c _0\2c _0\2c _0\.00\)_100\%\)\2c _radial-gradient\(44\.12\%_81\.52\%_at_46\.47\%_-0\.00\%\2c _\#000_0\%\2c _rgba\(0\2c _0\2c _0\2c _0\.00\)_100\%\)\2c _url\(\'\.\/images\/lipNipPaints\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-  background: radial-gradient(57.94% 68.69% at 29.47% 108.19%, rgba(0, 0, 0, 0.85) 38.89%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(44.12% 81.52% at 46.47% -0.00%, #000 0%, rgba(0, 0, 0, 0.00) 100%), url('./images/lipNipPaints.png'), lightgray 50% / cover no-repeat;
+.\[background\:radial-gradient\(57\.94\%_68\.69\%_at_29\.47\%_108\.19\%\2c _rgba\(0\2c _0\2c _0\2c _0\.85\)_38\.89\%\2c _rgba\(0\2c _0\2c _0\2c _0\.00\)_100\%\)\2c _radial-gradient\(44\.12\%_81\.52\%_at_46\.47\%_-0\.00\%\2c _\#000_0\%\2c _rgba\(0\2c _0\2c _0\2c _0\.00\)_100\%\)\2c _url\(\'\.\/images\/lipNipPaints\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+  background: radial-gradient(57.94% 68.69% at 29.47% 108.19%, rgba(0, 0, 0, 0.85) 38.89%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(44.12% 81.52% at 46.47% -0.00%, #000 0%, rgba(0, 0, 0, 0.00) 100%), url('./images/lipNipPaints.webp'), lightgray 50% / cover no-repeat;
 }
 
-.\[background\:url\(\'\.\/images\/grid1\.png\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
-  background: url('./images/grid1.png'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
+.\[background\:url\(\'\.\/images\/grid1\.webp\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
+  background: url('./images/grid1.webp'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
 }
 
-.\[background\:url\(\'\.\/images\/grid2\.png\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
-  background: url('./images/grid2.png'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
+.\[background\:url\(\'\.\/images\/grid2\.webp\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
+  background: url('./images/grid2.webp'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
 }
 
-.\[background\:url\(\'\.\/images\/grid3\.png\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
-  background: url('./images/grid3.png'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
+.\[background\:url\(\'\.\/images\/grid3\.webp\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
+  background: url('./images/grid3.webp'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
 }
 
-.\[background\:url\(\'\.\/images\/grid4\.png\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
-  background: url('./images/grid4.png'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
+.\[background\:url\(\'\.\/images\/grid4\.webp\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
+  background: url('./images/grid4.webp'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
 }
 
-.\[background\:url\(\'\.\/images\/grid5\.png\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
-  background: url('./images/grid5.png'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
+.\[background\:url\(\'\.\/images\/grid5\.webp\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
+  background: url('./images/grid5.webp'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
 }
 
-.\[background\:url\(\'\.\/images\/grid6\.png\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
-  background: url('./images/grid6.png'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
+.\[background\:url\(\'\.\/images\/grid6\.webp\'\)\2c _13\.964px_3\.512px_\/_66\.351\%_82\.927\%_no-repeat\2c _\#F4F4F4\] {
+  background: url('./images/grid6.webp'), 13.964px 3.512px / 66.351% 82.927% no-repeat, #F4F4F4;
 }
 
-.\[background\:url\(\'\.\/images\/tatooed\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-  background: url('./images/tatooed.png'), lightgray 50% / cover no-repeat;
+.\[background\:url\(\'\.\/images\/tatooed\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+  background: url('./images/tatooed.webp'), lightgray 50% / cover no-repeat;
 }
 
 @font-face {
@@ -2271,48 +2271,48 @@ video {
     outline-offset: 2px;
   }
 
-  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser2\.png\'\)\] {
-    background-image: url('./tabletImages/tabletSponser2.png');
+  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser2\.webp\'\)\] {
+    background-image: url('./tabletImages/tabletSponser2.webp');
   }
 
-  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser3\.png\'\)\] {
-    background-image: url('./tabletImages/tabletSponser3.png');
+  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser3\.webp\'\)\] {
+    background-image: url('./tabletImages/tabletSponser3.webp');
   }
 
-  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser4\.png\'\)\] {
-    background-image: url('./tabletImages/tabletSponser4.png');
+  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser4\.webp\'\)\] {
+    background-image: url('./tabletImages/tabletSponser4.webp');
   }
 
-  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser5\.png\'\)\] {
-    background-image: url('./tabletImages/tabletSponser5.png');
+  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser5\.webp\'\)\] {
+    background-image: url('./tabletImages/tabletSponser5.webp');
   }
 
-  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser6\.png\'\)\] {
-    background-image: url('./tabletImages/tabletSponser6.png');
+  .md\:\[background-image\:url\(\'\.\/tabletImages\/tabletSponser6\.webp\'\)\] {
+    background-image: url('./tabletImages/tabletSponser6.webp');
   }
 
-  .md\:\[background-image\:url\(\'\/about-images\/tabletError\.png\'\)\] {
-    background-image: url('/about-images/tabletError.png');
+  .md\:\[background-image\:url\(\'\/about-images\/tabletError\.webp\'\)\] {
+    background-image: url('/about-images/tabletError.webp');
   }
 
-  .md\:\[background-image\:url\(\'\/images\/tabletBg1\.png\'\)\] {
-    background-image: url('/images/tabletBg1.png');
+  .md\:\[background-image\:url\(\'\/images\/tabletBG1\.webp\'\)\] {
+    background-image: url('/images/tabletBG1.webp');
   }
 
-  .md\:\[background\:_url\(\'\.\/images\/mdProductOne\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-    background:  url('./images/mdProductOne.png'), lightgray 50% / cover no-repeat;
+  .md\:\[background\:_url\(\'\.\/images\/mdProductOne\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+    background:  url('./images/mdProductOne.webp'), lightgray 50% / cover no-repeat;
   }
 
-  .md\:\[background\:_url\(\'\.\/images\/mdProductThree\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-    background:  url('./images/mdProductThree.png'), lightgray 50% / cover no-repeat;
+  .md\:\[background\:_url\(\'\.\/images\/mdProductThree\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+    background:  url('./images/mdProductThree.webp'), lightgray 50% / cover no-repeat;
   }
 
-  .md\:\[background\:url\(\'\.\/tabletImages\/tabletSponser1\.png\'\)\2c 36\.341px_9\.22px_\/_66\.351\%_82\.927\%\2c \#F4F4F4\] {
-    background: url('./tabletImages/tabletSponser1.png'),36.341px 9.22px / 66.351% 82.927%,#F4F4F4;
+  .md\:\[background\:url\(\'\.\/tabletImages\/tabletSponser1\.webp\'\)\2c 36\.341px_9\.22px_\/_66\.351\%_82\.927\%\2c \#F4F4F4\] {
+    background: url('./tabletImages/tabletSponser1.webp'),36.341px 9.22px / 66.351% 82.927%,#F4F4F4;
   }
 
-  .md\:\[background\:url\(\'\.\/tabletImages\/tabletTatooed\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-    background: url('./tabletImages/tabletTatooed.png'), lightgray 50% / cover no-repeat;
+  .md\:\[background\:url\(\'\.\/tabletImages\/tabletTatooed\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+    background: url('./tabletImages/tabletTatooed.webp'), lightgray 50% / cover no-repeat;
   }
 }
 
@@ -2654,31 +2654,31 @@ video {
     opacity: .3;
   }
 
-  .lg\:\[background\:_url\(\'\.\/desktopImages\/desktopFoxx\.png\'\)\2c _lightgray_-62\.191px_0px_\/_189\.495\%_100\%_no-repeat\] {
-    background:  url('./desktopImages/desktopFoxx.png'), lightgray -62.191px 0px / 189.495% 100% no-repeat;
+  .lg\:\[background\:_url\(\'\.\/desktopImages\/desktopFoxx\.webp\'\)\2c _lightgray_-62\.191px_0px_\/_189\.495\%_100\%_no-repeat\] {
+    background:  url('./desktopImages/desktopFoxx.webp'), lightgray -62.191px 0px / 189.495% 100% no-repeat;
   }
 
-  .lg\:\[background\:_url\(\'\.\/desktopImages\/machine1\.png\'\)\] {
-    background:  url('./desktopImages/machine1.png');
+  .lg\:\[background\:_url\(\'\.\/desktopImages\/machine1\.webp\'\)\] {
+    background:  url('./desktopImages/machine1.webp');
   }
 
-  .lg\:\[background\:_url\(\'\.\/desktopImages\/machine2\.png\'\)\] {
-    background:  url('./desktopImages/machine2.png');
+  .lg\:\[background\:_url\(\'\.\/desktopImages\/machine2\.webp\'\)\] {
+    background:  url('./desktopImages/machine2.webp');
   }
 
-  .lg\:\[background\:_url\(\'\.\/desktopImages\/review2\.png\'\)\2c _lightgray_0px_-1\.928px_\/_100\%_150\%_no-repeat\] {
-    background:  url('./desktopImages/review2.png'), lightgray 0px -1.928px / 100% 150% no-repeat;
+  .lg\:\[background\:_url\(\'\.\/desktopImages\/review2\.webp\'\)\2c _lightgray_0px_-1\.928px_\/_100\%_150\%_no-repeat\] {
+    background:  url('./desktopImages/review2.webp'), lightgray 0px -1.928px / 100% 150% no-repeat;
   }
 
-  .lg\:\[background\:radial-gradient\(57\.94\%_68\.69\%_at_29\.47\%_108\.19\%\2c _rgba\(0\2c _0\2c _0\2c _0\.85\)_38\.89\%\2c _rgba\(0\2c _0\2c _0\2c _0\.00\)_100\%\)\2c _radial-gradient\(44\.12\%_81\.52\%_at_46\.47\%_-0\.00\%\2c _\#000_0\%\2c _rgba\(0\2c _0\2c _0\2c _0\.00\)_100\%\)\2c _url\(\'\.\/desktopImages\/desktopLip\.png\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
-    background: radial-gradient(57.94% 68.69% at 29.47% 108.19%, rgba(0, 0, 0, 0.85) 38.89%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(44.12% 81.52% at 46.47% -0.00%, #000 0%, rgba(0, 0, 0, 0.00) 100%), url('./desktopImages/desktopLip.png'), lightgray 50% / cover no-repeat;
+  .lg\:\[background\:radial-gradient\(57\.94\%_68\.69\%_at_29\.47\%_108\.19\%\2c _rgba\(0\2c _0\2c _0\2c _0\.85\)_38\.89\%\2c _rgba\(0\2c _0\2c _0\2c _0\.00\)_100\%\)\2c _radial-gradient\(44\.12\%_81\.52\%_at_46\.47\%_-0\.00\%\2c _\#000_0\%\2c _rgba\(0\2c _0\2c _0\2c _0\.00\)_100\%\)\2c _url\(\'\.\/desktopImages\/desktopLip\.webp\'\)\2c _lightgray_50\%_\/_cover_no-repeat\] {
+    background: radial-gradient(57.94% 68.69% at 29.47% 108.19%, rgba(0, 0, 0, 0.85) 38.89%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(44.12% 81.52% at 46.47% -0.00%, #000 0%, rgba(0, 0, 0, 0.00) 100%), url('./desktopImages/desktopLip.webp'), lightgray 50% / cover no-repeat;
   }
 
-  .lg\:\[background\:url\(\'\.\/about-images\/desktopError\.png\'\)\] {
-    background: url('./about-images/desktopError.png');
+  .lg\:\[background\:url\(\'\.\/about-images\/desktopError\.webp\'\)\] {
+    background: url('./about-images/desktopError.webp');
   }
 
-  .lg\:\[background\:url\(\'\.\/images\/desktopBG\.png\'\)\] {
-    background: url('./images/desktopBG.png');
+  .lg\:\[background\:url\(\'\.\/images\/desktopBG\.webp\'\)\] {
+    background: url('./images/desktopBG.webp');
   }
 }
