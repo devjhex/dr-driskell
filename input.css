@@ -5,8 +5,10 @@
 @font-face {
     font-family:"jost";
     src: url(./fonts/Jost-VariableFont_wght.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family:"forum";
     src: url(./fonts/Forum-Regular.ttf);
+    font-display: swap;
 }

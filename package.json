@@ -4,9 +4,12 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "tailwindcss -i input.css -o output.css --watch"
+    "tailwind": "./node_modules/.bin/tailwindcss -i input.css -o output.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
 }
