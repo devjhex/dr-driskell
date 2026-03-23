@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i input.css -o output.css --minify --watch",
+    "dev": "npx tailwindcss -i input.css -o output.css --watch",
     "build": "npx tailwindcss -i input.css -o output.css --minify",
     "optimize": "node optimize.js"
   },
