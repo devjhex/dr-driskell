@@ -9,7 +9,7 @@
 }
 @font-face {
     font-family:"forum";
-    src: url(./fonts/Forum-Regular.woff2) format('woff2');
+    src: url(./fonts/Forum-Regular.subset.woff2) format('woff2');
     font-display: swap;
 }
 
